@@ -1,0 +1,41 @@
+Amazon EC2 login ID:- ec2-user //default user ID for amazon ec2 image
+sudo apt –get update // default for 1st time login into server (Linux)
+sudo yum update // default for 1st time login into server (Amazon linux)
+sudo su – root // switch over to root
+Git --version // check GIT already installed or not
+yum install git // install GIT
+type Y and enter // it will ask storage availability
+git --version // check GIT version
+pwd // check current path
+mkdir git // create a folder
+ls -ltr // check list of files in current path
+cd git/ // change the current path to GIT folder
+ls –ltr // check list of files in current path
+ls -ltra // check list of files in current path including hidden files
+git init // GIT start
+ls -lrta // check list of files in current path including hidden files
+vi test // create / edit a file called "test"
+*************[type something inside file "test" and save by ESC -> :wq!]*************
+ls -lrt // check list of files in current path
+cat test // view whats inside the file
+git status –s // check the git status in shortest way
+git status // check the git status in detailed way
+git add test //git add <file name>
+git config --global user.name "Karthikgovind7" // "---" mention user name inside quotes for others to know who done this changes
+git config --global user.email "karthikgovind7@yahoo.com" // "---" mention user email id inside quotes for others to know who done this changes as well further communication
+git log // check the git log
+git commit –m “First commit”// save the data in local repo here –m stands for message for what the purpose of this commit
+git log // check the git log
+git status // check the git status in detailed way
+vi test // edit the file name called test and write smthng inside test file
+ls –lrt // view the files
+git status –s // now it will show M means smthng has been modified with danger stage hence it shows M in red color
+git add test // git add <file name>
+git status –s // now result M will show in green color means smthng modified
+git commit –m “Second commit”
+git log  // this will shows u entire commit logs if its 1000 commits also it will show
+git log --oneline // this will show u only commits
+git push // move the local repo files to github.com
+git remote add <reference  name> <remote repo github url> // <reference name> = instead of anytime using github remote url , <remote repo github url> = github repo url which we created
+git branch // view the branch list created in current git repo
+git push <reference  name> <branch name>
